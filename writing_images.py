@@ -5,4 +5,4 @@ image = cv2.imread(image_path)
 
 new_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-cv2.imwrite("../OpenCv/Goruntuler/gray_image.png")
+cv2.imwrite("../OpenCv/Goruntuler/gray_image.png", new_image)
