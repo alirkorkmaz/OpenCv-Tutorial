@@ -23,3 +23,4 @@ while True:
         break
 cap.release()
 video_output.release()
+cv2.destroyAllWindows()
